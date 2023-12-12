@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__top">
+            <h3>Themebau.</h3>
+            <div class="header__right">
+                <ul>
+                    <li>home</li>
+                    <li><a href="Projects/project.html">projects</a></li>
+                    <li><a href="pages/minipages/pages.html">pages</a></li>
+                    <li>contact</li>
+                </ul>
+                <img src="image/Vector%20(52).png" alt="">
+                <img src="image/Vector%20(53).png" alt="">
+                <img src="image/Vector%20(54).png" alt="">
+            </div>
+        </div>
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="colibri__banner">
+                                <h1>Colibri Creative <br>
+                                    Project</h1>
+                                <button>view</button>
+                                <p>01 - 03</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="colibri__banner">
+                                <h1>Colibri Creative <br>
+                                    Project</h1>
+                                <button>view</button>
+                                <p>02 - 03</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                                <div class="colibri__banner second">
+                                    <h1>Colibri Creative <br>
+                                        Project</h1>
+                                    <button>view</button>
+                                    <p>03 - 03</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+
+
+        </div>
+
+</header>
+<main>
+
+    <section class="about">
+        <div class="container">
+            <h5>who we are</h5>
+            <h2>An award-winning design & dev team
+                that is proud of our work  👋</h2>
+            <div class="about__box">
+                <div class="about__left">
+                    <p>Over 10 years of combined experience,
+                        and know a thing or two about designing
+                        websites and mobile apps.</p>
+                </div>
+                <div class="about__right">
+                    <p>Were divided, a moved night light darkness winged may
+                        also make man for. Winged the for Earth creeping appear
+                        evening, gathered Forth so he. Life that dry of created
+                        greater can't also gathered female green.</p>
+                    <button>about us  .</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="image">
+        <div class="container">
+            <div class="image__box">
+                <div class="image__card one">
+                    <img src="image/cup%20icon.png" alt="">
+                    <h4>Web Design and <br>
+                        Development</h4>
+                </div>
+                <div class="image__card two">
+                    <img src="image/settings.png" alt="">
+                    <h4>Brand Strategy <br>
+                        Accelerator</h4>
+                </div>
+                <div class="image__card three">
+                    <img src="image/anchor%20icon.png" alt="">
+                    <h4>Packaging and Brand <br>
+                        Identity</h4>
+                </div>
+                <div class="image__card four">
+                    <img src="image/book%20icon.png" alt="">
+                    <h4>Content Production</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+</body>
+</html>
